@@ -9,8 +9,7 @@ public class Config {
 
     synchronized private static void init() throws IOException {
         if (null == prop) {
-            InputStream in = Thread.currentThread().getClass()
-                    .getResourceAsStream("/app.properties");
+            InputStream in = Config.class.getResourceAsStream("/app.properties");
             prop = new Properties();
             prop.load(in);
         }
