@@ -1,0 +1,11 @@
+*~
+
+/.idea
+/*.iml
+
+/target
+
+/log
+/conf
+/lib/jp.co.yahoo.yconnect-2.0.4.jar
+/src/main/resources/app.properties
